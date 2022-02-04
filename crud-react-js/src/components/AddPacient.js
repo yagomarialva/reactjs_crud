@@ -1,8 +1,10 @@
 import React from 'react';
 import PacientForm from './PacientForm';
-const AddPacient = () => {
+
+const AddPacient = ({ history, pacients, setPacients }) => {
   const handleOnSubmit = (pacient) => {
-    console.log(pacient);
+    setPacients([pacient, ...pacients]);
+    history.push('/');
   };
 
   return (
