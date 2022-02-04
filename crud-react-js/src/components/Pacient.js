@@ -23,7 +23,7 @@ const Pacient = ({
                     <div>cpf: {cpf} </div>
                     <div>status: {status} </div>
                     <div>gender: {gender} </div>
-                    <div>Date: {new Date(creation_date).toDateString()}</div>
+                    <div>Creation date: {new Date(creation_date).toDateString()}</div>
                 </div>
                 <Button variant="primary" onClick={() => history.push(`/edit/${id}`)}>
                     Edit
