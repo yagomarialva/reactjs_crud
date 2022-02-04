@@ -17,7 +17,7 @@ const Pacient = ({
         <Card style={{ width: '18rem' }} className="pacient">
             <Card.Body>
                 <Card.Title className="pacient-title">{pacient_name}</Card.Title>
-                <div className="book-details">
+                <div className="pacient-details">
                     <div>Pacient Name: {pacient_name}</div>
                     <div>birthday: {birthday} </div>
                     <div>cpf: {cpf} </div>
